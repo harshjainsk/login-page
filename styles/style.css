@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../assets/Deep\ Space\ 1.png");
+    background-size: 100% 100%;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.rocket-container img{
+    width: 567.54px;
+    height: 567.54px;
+    /* transform: rotate(-30deg); */
+    object-position: 24.77 -370.96;
+    position: fixed;
+}
+
+
+.rocket {
+    position: relative;
+}
